@@ -1,0 +1,26 @@
+# spotisim vit dans son propre dépôt
+Founder/
+
+# Build PyInstaller (107 Mo)
+RadioPlayer/dist/
+RadioPlayer/build/
+
+# État local de l'application, propre à chaque utilisateur
+RadioPlayer/donnees/favoris.json
+RadioPlayer/donnees/reglages.json
+
+# Anciennes versions et archives
+V0.1/
+*.zip
+
+# Secrets : jamais versionnés
+.env
+*/.env
+!.env.exemple
+!*/.env.exemple
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
